@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tina Xing</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="dropdown.css" rel="stylesheet" type="text/css" />
+
+  <!-- h1 font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+
+  <!-- cormorant garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+  <br>
+  <div class="banner">
+    <a style="text-decoration: none; color: black" href="index.html"><h1>Tina Xing </h1> </a>
+    <p> Photography </p>
+    <br><br>
+    
+    <hr width="25%"> 
+ 
+
+    <div class="topnav">
+      <div class="dropdown"> 
+        <button class="dropbtn"><b>Collections ></b></button>
+      <div class="dropdown-content">
+        <a href="collections.html">Main Page</a>
+        <a href="patterned_shots.html">Patterned Shots</a>
+        <a href="flushing_shots.html">Flushing Shots</a>
+        <a href="appalachian_tour.html">Appalachian Shots</a>
+        <a href="luray.html">Luray Caverns</a>
+      </div>
+        
+  </div>
+      <a href="index.html">Gallery</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+
+  <h1 style="text-align: center">Luray Caverns Shots</h1>
+  <p style="text-align: center">These shots were all from August 10, in Virginia. This was Day 1 of the trip (Thursday). </p>
+  
+  <div class="gallery">
+    <div class="row">
+      <div class="column">
+        
+        <div class="container">
+          <img src="luray/luray1.PNG"> 
+          <div class="overlay">
+            <div class="text">
+               Taken on my visit to the Luray Caverns, VA. (August 10, 2023)
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="luray/luray2.png">
+          <div class="overlay">
+            <div class="text">
+              The wishing well. (August 10, 2023)
+            </div>
+          </div>
+        </div>
+
+
+        
+        
+        
+      </div>
+      <div class="column">
+
+        <div class="container">
+          <img src="luray/luray3.png">
+          <div class="overlay">
+            <div class="text">
+              (August 10, 2023)
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        
+      <div class="column">
+
+        <div class="container">
+            <img src="luray/luray4.png">
+            <div class="overlay">
+              <div class="text">
+                (August 10, 2023)
+              </div>
+            </div>
+        </div>
+        
+        
+            
+        </div>
+      </div>
+
+  
+
+  <br><br><br><br>
+</body>
+
+</html>
+
+
+<style>
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 33%;
+    padding: 5px 5px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    display: block;
+  }
+  
+  .container {
+    position: relative;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  .container:hover .overlay{
+    opacity: 0.7; 
+  }
+  /* Responsive layout - makes 2 column-layout instead of 4 columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+/* Responsive layout - makes the two columns stack on top*/
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+</style>
