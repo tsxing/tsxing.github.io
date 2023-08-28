@@ -10,9 +10,14 @@ html {
 
 }
 
-h1{
+.banner h1{
   font-family: 'Babylonica', cursive;
   font-size: 60px;
+}
+
+.sitebody h1{
+  font-size: 40px;
+ font-family: 'Cormorant Garamond', serif;
 }
 
 p{
