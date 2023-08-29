@@ -44,14 +44,92 @@
         </li>
         <li><a href="index.html">Gallery</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="journal.html">Journal</a></li>
+      <li><a href="journal.html">Blog</a></li>
     </ul>
   </div>
   <br><br>
 
   <div class="sitebody" style="text-align: center;">
+    <h1>Blog/Notes</h1>
+    <p>Photography notes/ideas here! (not yet)</p>
+    <div class="row">
+      <div class="column">
 
-    <h1>Journal/Notes</h1>
-      <p>Photography notes/ideas here! (not yet)</p>
+        <div class="container">
+          <img src="nyc_shots/nyc_bw1.png">
+          <h2>Blog title</h2>
+          <p>Blog dscp</p>
+        </div>
+      </div>
+      
+      <div class="column">
+
+        <div class="container">
+          <img src="nyc_shots/nyc_bw1.png">
+          <h2>Blog title</h2>
+          <p>Blog dscp</p>
+        </div>
+      </div>
+      
+      <div class="column">
+
+        <div class="container">
+          <img src="nyc_shots/nyc_bw1.png">
+          <h2>Blog title</h2>
+          <p>Blog dscp</p>
+        </div>
+      </div>
+      
+    </div>
+
+    
+
+    
     
   </div>
+
+  
+
+<style>
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 45px;
+    text-align: center;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 33%;
+    padding: 5px 5px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  /* Responsive layout - makes 2 column-layout instead of 4 columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+/* Responsive layout - makes the two columns stack on top*/
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+</style>
