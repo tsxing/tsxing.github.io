@@ -1,17 +1,17 @@
-ul{
+ul {
   padding: 0;
   list-style: none;
   background: white;
 }
 
-ul li{
+ul li {
   display: inline-block;
   position: relative;
   line-height: 21px;
   text-align: left;
 }
 
-ul li a{
+ul li a {
   display: block;
   padding: 8px 25px;
   color: #333;
@@ -19,13 +19,14 @@ ul li a{
   font-family: 'Cormorant Garamond', serif;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: black;
   background: #ddd;
 }
 
-ul li ul.dropdown{
-  min-width: 100%; /* Set width dropdown */
+ul li ul.dropdown {
+  min-width: 100%;
+  /* Set width dropdown */
   background: white;
   display: none;
   position: absolute;
@@ -33,10 +34,11 @@ ul li ul.dropdown{
   left: 0;
 }
 
-ul li:hover ul.dropdown{
-  display: block;	/* display dropdown */
+ul li:hover ul.dropdown {
+  display: block;
+  /* display dropdown */
 }
 
-ul li ul.dropdown li{
+ul li ul.dropdown li {
   display: block;
 }
