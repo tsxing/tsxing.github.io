@@ -21,11 +21,16 @@ body{
 }
 
 .sitebody h1{
-  font-size: 40px;
+  font-size: 45px;
  font-family: 'Cormorant Garamond', serif;
 }
 .sitebody h2{
-  font-size: 30px;
+  font-size: 35px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.sitebody h3{
+  font-size: 25px;
   font-family: 'Cormorant Garamond', serif;
 }
 
