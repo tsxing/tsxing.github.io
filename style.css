@@ -19,6 +19,34 @@ body{
   font-family: 'Babylonica', cursive;
   font-size: 60px;
 }
+.btncontainer{
+  height: 200px;
+  position: relative;
+}
+.btn{
+    
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.5s;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
 
 .sitebody h1{
   font-size: 45px;
