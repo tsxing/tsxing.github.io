@@ -16,9 +16,11 @@ body{
 }
 
 .banner h1{
-  font-family: 'Babylonica', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 100;
   font-size: 60px;
 }
+
 .btncontainer{
   height: 200px;
   position: relative;
