@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tina Xing</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link href="../dropdown.css" rel="stylesheet" type="text/css" />
+
+  <!-- h1 font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+
+  <!-- cormorant garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+  <br>
+  <div class="banner">
+    <a style="text-decoration: none; color: black" href="../index.html"><h1>Tina Xing </h1> </a>
+    <p style="font-size: 15px"> Photography</p>
+    <br><br>
+    
+    <hr width="25%"> 
+ 
+
+    <!-- top nav thing-->
+    <ul>
+        <li>
+            <a href="#">Collections  &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="../collections.html">Main Page</a></li>
+               
+            </ul>
+        </li>
+        <li><a href="../index.html">Gallery</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../journal.html">Blog</a></li>
+    </ul>
+  </div>
+  
+  <br><br>
+
+  <div style="text-align: center" class="sitebody">
+    
+    <h1>Video Capture Photo Mode vs Regular Photo Mode</h1>
+      <p>Photos captured from iPhone's video mode are visually different from photos taken from the regular photo mode. For example, videos tend to appear darker and less vibrant compared to regular photos, whether live or still, which often capture more light and reflection. I decided to do some digging on this, to conclude which may look better depending on the type of photo or the image you want to capture. In this post, we'll discuss the differences between these modes, and when we may prefer to use which mode!
+      </p>
+    
+    <h2>Sizing Differences</h2>
+    <p>The most obvious difference is that when capturing a photo in video mode, the camera seems to zoom in. To "fill the screen" with the Four Thirds image sensor (18 mm x 13.5 mm, or 4:3 ratio), the phone camera needs to zoom in to "crop" out the additional view, to get the ratio of 16:9 (which is the ratio for a vertical video ratio). </p>
+  
+    
+    <h2>Lighting/Color Differences</h2>
+    <div class="page_row">
+      <div class="double_column">
+        <img  src="/blog_images/editguide_tree_before.jpg" alt="before" style="width:100%">
+      </div>
+      <div class="double_column">
+        <img src="/blog_images/editguide_tree_after.jpg" alt="after" style="width:100%">
+      </div>
+    </div>
+    <p>From above photo comparisons, we see that photos from video mode may seem to have darker lighting. Photos appear brighter than its video mode counterparts because photos have time for more exposure, compared to taking photos directly from video mode (which has less exposure). This reason may be similar to how videos can appear darker when the frame rate (FPS) is higher, due to having a shorter exposure time. This difference in lighting may cause the color to also appear different. For example, we may find the video-mode photos' colors to be more similar to the color we see in real life, whereas photos may appear more vibrant or have more 'reflectivity'.</p>
+
+    <h2>Which Mode Should I use? (Preferences)</h2>
+    <p>When capturing sunsets or night views, I prefer to use video capture mode (See photos above). I believe the colors are more similar to the view I see with my eyes. Sometimes, when taking selfies, I also prefer to use video capture mode. See below comparison, where I took photos in the exact position. My face appears to have less 'reflection' in video capture mode. In the photo mode, my face appears to have more light directed to it (again, likely due to more time for exposure). Personally, I prefer to have my face to appear less 'reflected', as the light on my face may make me look sweaty. The color tone of my face in photo mode also often looks oversaturated with an "orange" undertone. This sometimes make me look uncanny. It all boils down to personal preference though.
+    </p>
+    
+
+    
+  </div>
+
+</body>
+  
+<style>
+  * {
+  box-sizing: border-box;
+  }
+  
+  h1{
+      padding: 0px 150px;
+      line-height: 42px;
+    }
+  
+  ul{
+  list-style-type: circle;
+  }
+  
+  p{
+      padding: 0px 150px;
+      line-height: 28px;
+    }
+
+  .page_row {
+  display: flex;
+    padding: 0px 400px;
+}
+
+/* Create equal columns that sits next to each other */
+.double_column {
+  flex: 50%;
+  padding: 5px;
+}
+
+  .triple_column {
+  flex: 33%;
+  padding: 5px;
+}
+
+  </style>
