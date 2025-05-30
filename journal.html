@@ -57,111 +57,82 @@
     <br><p>These are of my opinion and with an iPhone, I am NOT a professional :)</p> <br><br>
 
 
-    <div class="row">
+    <div class="gallery">
+  <div class="container">
+    <a href="blog_pages/#.html"><img src="other_images/may_2025/dandypuff.jpg" alt="Plant Photography"></a>
+    <h2>Plant Photography with an iPhone</h2>
+    <p>to be written!</p>
+  </div>
 
-      <div class="column">
-        <div class="container">
-          <a href="blog_pages/#.html"><img src="other_images/may_2025/dandypuff.jpg"></a>
-          <h2>Plant Photography with an iPhone </h2>
-          <p>to be written!</p>
-        </div>
-      </div>
+  <div class="container">
+    <a href="blog_pages/video_vs_photo_mode.html"><img src="blog_images/video_vs_photos/vid_vs_photo_cover.png" alt="Video vs Photo"></a>
+    <h2>iPhone: Regular Photos vs Video-Captured Photos</h2>
+    <p>The differences/preferences between capturing photos with the regular photo mode and the video-capture mode! (July, 2024)</p>
+  </div>
 
-      <div class="column">
-        <div class="container">
-          <a href="blog_pages/video_vs_photo_mode.html"><img src="blog_images/video_vs_photos/vid_vs_photo_cover.png"></a>
-          <h2>iPhone: Regular Photos vs Video-Captured Photos </h2>
-          <p>The differences/preferences between capturing photos with the regular photo mode and the video-capture mode! (July, 2024)</p>
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="container">
-          <a href="blog_pages/take_jewelry_photos.html"><img src="blog_images/jwlr_blue_1.png"></a>
-          <h2>iPhone: Low Budget Jewelry Photos</h2>
-          <p>Take low budget jewelry photos with a laptop, your phone (camera), and a sheet of paper (May, 2024)</p>
-        </div>
-      </div>
+  <div class="container">
+    <a href="blog_pages/take_jewelry_photos.html"><img src="blog_images/jwlr_blue_1.png" alt="Jewelry Photos"></a>
+    <h2>iPhone: Low Budget Jewelry Photos</h2>
+    <p>Take low budget jewelry photos with a laptop, your phone (camera), and a sheet of paper (May, 2024)</p>
+  </div>
 
-      <div class="column">
-        <div class="container">
-          <a href="blog_pages/edit-guide.html"><img src="blog_images/editphoto_hand_after.jpg"></a>
-          <h2>Photo Mood Guide</h2>
-          <p>My perspectives on how adjustments like contrast affects the vibe a photo gives off. (May, 2024)</p>
-        </div>
-      </div>
+  <div class="container">
+    <a href="blog_pages/edit-guide.html"><img src="blog_images/editphoto_hand_after.jpg" alt="Photo Mood Guide"></a>
+    <h2>Photo Mood Guide</h2>
+    <p>My perspectives on how adjustments like contrast affects the vibe a photo gives off. (May, 2024)</p>
+  </div>
 
-      
-      
-    </div>
+  <div class="container">
+    <a href="blog_pages/taking-better-food-photos.html"><img src="blog_images/betterfoodphotos4.png" alt="Food Photos"></a>
+    <h2>iPhone Photos: Taking better food photos</h2>
+    <p>Capture more of your food with only your iPhone! (Summer, 2023)</p>
+  </div>
 
-    
-    <div class="row">
-      
+  <div class="container">
+    <a href="blog_pages/selfie-vs-self-portrait.html"><img src="blog_images/selfievsportrait.png" alt="Selfies vs Portraits"></a>
+    <h2>iPhone Selfies/Portraits</h2>
+    <p>Use your iPhone and take cool photos of yourself! Some poses you can do, and some thoughts on photo editing/adjustments. (Summer, 2023)</p>
+  </div>
+</div>
 
-      <div class="column">
-        <div class="container">
-          <a href="blog_pages/taking-better-food-photos.html"><img src="blog_images/betterfoodphotos4.png"></a>
-          <h2>iPhone Photos: Taking better food photos</h2>
-          <p>Capture more of your food with only your iPhone! (Summer, 2023)</p>
-        </div>
-      </div>
-      
-
-      <div class="column">
-        <div class="container">
-          <a href="blog_pages/selfie-vs-self-portrait.html"><img src="blog_images/selfievsportrait.png"></a>
-          <h2>iPhone Selfies/Portraits</h2>
-          <p>Use your iPhone and take cool photos of yourself! Some poses you can do, and some thoughts on photo editing/adjustments. (Summer, 2023)</p>
-        </div>
-      </div>
-
-    </div>
     
     <br><br> 
 
   
 
 <style>
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px 45px;
-    text-align: center;
-  }
-  
-  .column {
-    flex: 25%;
-    max-width: 33%;
-    padding: 5px 5px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .container {
-    position: relative;
-  }
-  
-  /* Responsive layout - makes 2 column-layout instead of 4 columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+  .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px 45px;
+  text-align: center;
+}
 
-/* Responsive layout - makes the two columns stack on top*/
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.container h2 {
+  margin: 0.5em 0 0.3em;
+  font-size: 1.2rem;
+}
+
+.container p {
+  margin: 0 0 1.5em;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive tweaks if needed */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr; /* stack one column on small screens */
   }
+}
+
+  
 </style>
