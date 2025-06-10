@@ -1,12 +1,12 @@
 # Photography site
 tsxing.github.io
 
-index.html
-about.html
-journal.html
-
-other_images
-    may_2025
+index.html <br>
+about.html<br>
+journal.html<br>
+<br><br>
+other_images <br>
+    may_2025 
     nov_dump
     nyc_shots
     oct_batch
