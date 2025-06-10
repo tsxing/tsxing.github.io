@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    overscroll-behavior-y: none;
+    margin: 0;
+  }
+  
+  .banner{
+    text-align: center;
+    line-height: 0.1px;
+    padding: 10px;
+  
+  }
+  
+  .banner h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+    font-size: 60px;
+  }
+  
+  .btncontainer{
+    height: 200px;
+    position: relative;
+  }
+  .btn{
+      
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .sitebody h1{
+    font-size: 45px;
+   font-family: 'Cormorant Garamond', serif;
+  }
+  .sitebody h2{
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .sitebody h3{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .sitebody ul{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+  }
+  
+  p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+  }
+  
+  .topnav{
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+  }
+  .topnav a{
+    text-decoration: none;
+    color: black;
+    padding: 14 16px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+  }
+  
+
+    
+    .container {
+      position: relative;
+    }
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-family: 'Cormorant Garamond', serif;
+      line-height: 24px;
+    }
+
+    /* 
+    .container:hover .overlay{
+      opacity: 0.7; 
+    } */
+
+    /* Responsive layout - makes 2 column-layout instead of 4 columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+  
+  /* Responsive layout - makes the two columns stack on top*/
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
