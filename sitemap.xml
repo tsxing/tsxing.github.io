@@ -13,22 +13,22 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://tsxing.github.io/index.html</loc>
-  <lastmod>2025-06-10T16:51:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tsxing.github.io/collections.html</loc>
-  <lastmod>2025-06-10T16:51:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://tsxing.github.io/about.html</loc>
   <lastmod>2025-06-10T16:51:28+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://tsxing.github.io/journal.html</loc>
+  <lastmod>2025-06-10T16:51:28+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://tsxing.github.io/index.html</loc>
+  <lastmod>2025-06-10T16:51:28+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tsxing.github.io/collections.html</loc>
   <lastmod>2025-06-10T16:51:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
