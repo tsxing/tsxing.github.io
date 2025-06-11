@@ -115,7 +115,6 @@ html {
       opacity: 0.7; 
     } */
 
-    /* Responsive layout - makes 2 column-layout instead of 4 columns */
     @media screen and (max-width: 700px) {
       .column {
         flex: 50%;
