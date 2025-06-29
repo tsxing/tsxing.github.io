@@ -77,10 +77,7 @@
         <li><a href="journal.html">Blog</a></li>
     </ul>
     </div>
-    
 
-    <hr>
-    <br>
     
     <div style="text-align: center;">
         <p>Welcome to my photography website! We have around 700 unique visitors since 2023:</p>
@@ -88,9 +85,26 @@
     </div>
         <br><br>
 
+
+        <div class="scroll-container">
+          <div class="scroll-track">
+            <img src="other_images/a-summer-undone/ASU_cherry_blossom.png" alt="">
+            <img src="other_images/a-summer-undone/ASU_blading.png" alt="">
+            <img src="other_images/a-summer-undone/ASU_hand_flower.png" alt="">
+            <img src="other_images/a-summer-undone/ASU_taking_photo.png" alt="">
+            <!-- duplicate the same set to allow seamless looping -->
+            <img src="other_images/a-summer-undone/ASU_cherry_blossom.png" alt="">
+            <img src="other_images/a-summer-undone/ASU_blading.png" alt="">
+            <img src="other_images/a-summer-undone/ASU_hand_flower.png" alt="">
+            <img src="other_images/a-summer-undone/ASU_taking_photo.png" alt="">
+          </div>
+        </div>
+
+        
+<br><br><br>
   <div class="btncontainer">
-      <p style="width: 50%; text-align: center; margin: 0 auto;">On my blog pages, I write about whatever photography-related things that come to mind. </p>
-      <a href="journal.html"><button class="btn">Take a look! </button></a>
+      <p style="width: 50%; text-align: center; margin: 0 auto;">On my blog pages, I write about whatever photography-related things that come to mind. Be sure to check it out, or scroll down- see some highlights of my photography journey!</p>
+      <a target="_blank" href="journal.html"><button class="btn">Take a look! </button></a>
   </div>
     
     <div class="sitebody">
@@ -131,15 +145,28 @@
     
 
     <div class="sitebody">
+
         <div class="entry">
-        <div class="left">
+          <div class="left">
             <a href="blog/collection-of-before-and-after-photos.html"><img src="blog_images/junepics/empirebuild_after.jpg" alt="Blog Cover" /></a>
-        </div>
-        <div class="right">
-            <h2>Ongoing Collection of Before & Afters</i></h2>
+          </div>
+          <div class="right">
+            <h2>Ongoing Collection of Before & Afters</h2>
             <p><i>(Blog Post) 2024— </i> Here are some photos before and after editing with the iPhone's built-in photo editor.</p>
+          </div>
         </div>
-      </div>
+
+        <div class="entry">
+          <div class="left">
+            <a href="blog/photographing-to-remember-or-forget.html"><img src="other_images/xsx_ing_pfp.jpg" alt="Blog Cover" /></a>
+          </div>
+          <div class="right">
+            <h2>Do We Photograph to Remember or to Forget?</h2>
+            <p><i>(Blog Post) 2025— </i> We snap and we store thousands of moments. But what are we really doing? Remembering, or forgetting? What's the strange truth behind our obsession with photography, or taking photos in general...
+
+            </p>
+          </div>
+        </div>
         
     </div>
 
@@ -147,7 +174,6 @@
 
     
 
-       
 </body>
 
 </html>
@@ -216,6 +242,35 @@
     font-size: 1rem;
     color: #555;
 }
+
+
+.scroll-container {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 15s linear infinite;
+}
+
+.scroll-track img {
+  height: 90vh;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+  
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 
 
