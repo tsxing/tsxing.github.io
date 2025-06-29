@@ -104,7 +104,6 @@
 <br><br><br>
   <div class="btncontainer">
       <p style="width: 50%; text-align: center; margin: 0 auto;">On my blog pages, I write about whatever photography-related things that come to mind. Be sure to check it out, or scroll down- see some highlights of my photography journey!</p>
-      <br>
       <a target="_blank" href="journal.html"><button class="btn">Take a look! </button></a>
   </div>
     
@@ -143,7 +142,6 @@
     <img width=100% src="assets/banner2.png" alt="Photograph of two distanced people by Tina Xing">
     <br>
     <br>
-    <br><br><br>
     
 
     <div class="sitebody">
@@ -273,6 +271,28 @@
   }
 }
 
+
+
+@media (max-width: 768px) {
+  .entry {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left, .right {
+    flex: 1 1 100%;
+  }
+
+  .left img {
+    max-height: none;
+    width: 100%;
+  }
+
+  .right {
+    padding: 0 10px;
+  }
+}
 
 
 
