@@ -2,6 +2,7 @@
 tsxing.github.io
 
 index.html <br>
+collections.html <br>
 about.html<br>
 journal.html<br>
 <br><br>
