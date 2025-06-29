@@ -22,8 +22,7 @@ html {
   }
   
   .btncontainer{
-    height: 200px;
-    position: relative;
+
   }
   .btn{
       
@@ -38,11 +37,8 @@ html {
     text-align: center;
     transition: 0.5s;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+
   }
   .btn:hover{
     background-color: white;
