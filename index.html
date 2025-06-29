@@ -90,8 +90,8 @@
       <a href="journal.html"><button class="btn">Check out the blog! </button></a>
   </div>
     
-    <div style="text-align: center" class="sitebody">
-        
+    <div class="sitebody">
+      <div class="entry">
         <div class="left">
             <a href="collections/a-summer-undone.html"><img src="other_images/a-summer-undone/ASU_cherry_blossom.png" alt="A Summer Undone Cover" /></a>
         </div>
@@ -99,8 +99,9 @@
             <h2>Ongoing Collection: <i>A Summer Undone</i></h2>
             <p>For the breezes, the blues, and the beauty of not knowing what's coming next.</p>
         </div>
-
-
+      </div>
+    
+      <div class="entry">
         <div class="left">
             <a href="blog/which-photos-should-I-delete.html"><img src="other_images/appalachian_tour/lookout1.png" alt="Blog Article Cover" /></a>
         </div>
@@ -108,18 +109,18 @@
             <h2>Wait— Which Photos Should I Delete?</h2>
             <p> <i>(Blog Story) 2025— </i> How to mentally get over deleting old photos that take up your phone space. Make space for new beauty to be captured. :)</p>
         </div>
-
+      </div>
+    
+      <div class="entry">
         <div class="left">
             <a href="collections/oceans-whisper.html"><img src="other_images/cruise/cruiselighthouse.jpeg" alt="Oceans' Whisper Cover" /></a>
         </div>
         <div class="right">
             <h2>Collection Feature: <i>Oceans' Whisper</i></h2>
-            <p><i>2023— </i> There's something mysterious about the ocean and a giant ship carrying thousands of people... The cruise ship drifts just 3 kilometers off coast, yet it feels like we are worlds away, suspended between the familiar shores and the great unknown. </p>
+            <p><i>2023— </i> There's something mysterious about the ocean and a giant ship carrying thousands of people... The cruise ship drifts just 3 kilometers off coast, yet it feels like we are worlds away, suspended between the familiar shores and the great unknown.</p>
         </div>
-        
+      </div>
 </div>
-
-
 
   <br><br><br><br>
 
@@ -135,11 +136,16 @@
   max-width: 900px;
   margin: auto;
   padding: 20px;
-
-  display: flex;
-  gap: 40px; /* this sets the gap between left and right */
-  flex-wrap: wrap; /* makes it responsive */
 }
+
+    .entry {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px; /* Add spacing between each block */
+  align-items: center;
+}
+
 
 .left {
   flex: 0 0 40%;
