@@ -76,23 +76,32 @@
     * {
   box-sizing: border-box;
 }
+.sitebody {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 
-    .left, .right {
-  display: inline-block;
-  vertical-align: top;
-  box-sizing: border-box;
+  display: flex;
+  gap: 40px; /* this sets the gap between left and right */
+  flex-wrap: wrap; /* makes it responsive */
 }
 
-    .right{
-      width: 75%;
-      float: left;
-      text-align: left;
-      
-    }
-    .left{
-      float: left;
-      width: 25%;
-    }
+.left {
+  flex: 0 0 40%;
+}
+    .left img {
+  max-width: 100%;  /* don’t exceed container width */
+  height: auto;     /* keep aspect ratio */
+  border-radius: 8px;
+  object-fit: cover; /* this crops nicely if needed */
+  max-height: 400px; /* optional, caps height */
+}
+
+
+.right {
+  flex: 1; /* takes remaining space */
+    text-align: left;
+}
 
 
     .sitebody img:hover{
