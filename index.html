@@ -116,32 +116,23 @@
 
 <style>
 
-    .sitebody {
+.sitebody {
   max-width: 900px;
   margin: auto;
   padding: 20px;
-}
 
-    .left, .right {
-  display: inline-block;
-  vertical-align: top;
-  box-sizing: border-box;
+  display: flex;
+  gap: 40px; /* this sets the gap between left and right */
+  flex-wrap: wrap; /* makes it responsive */
 }
 
 .left {
-  width: 40%;
-  padding-right: 20px;
-}
-
-.left img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
+  flex: 0 0 40%;
 }
 
 .right {
-  width: 55%;
+  flex: 1; /* takes remaining space */
+    text-align: left;
 }
 
 
