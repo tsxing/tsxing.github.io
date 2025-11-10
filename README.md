@@ -1,4 +1,4 @@
-# Photography site
+# Tina Xing Photography
 tsxing.github.io
 
 index.html <br>
